@@ -1,0 +1,38 @@
+{
+  "id": "hw.localweather",
+  "names": {
+    "en-GB": "Weather",
+    "cy": "weather",
+    "pl": "weather",
+    "gd-GB": "weather",
+    "en-US": "weather",
+    "nl": "weather"
+  },
+  "descriptions": {
+    "en-GB": "Displays the weather of the campuses",
+    "cy": "Displays the weather of the campuses",
+    "pl": "Displays the weather of the campuses",
+    "gd-GB": "Displays the weather of the campuses",
+    "en-US": "Displays the weather of the campuses",
+    "nl": "Displays the weather of the campuses"
+  },
+  
+  "version": "1.0.62",
+  "tile": {
+    "titles" :{
+      "en-GB": "Weather",
+      "cy": "weather",
+      "pl": "weather",
+      "gd-GB": "weather",
+      "en-US": "weather",
+      "nl": "weather"
+    },
+    "template": "icon",
+    "templates": ["icon", "info"],
+    "height": "2",
+    "width":  "2",
+    "backgroundColor": [ 1, 138, 20, 255 ],
+    "foregroundColor": [ 255, 255, 255, 255 ],
+    "icon": "fa fa-first-order"
+  }
+}

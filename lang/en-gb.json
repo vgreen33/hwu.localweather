@@ -1,0 +1,9 @@
+{
+  "app.hw-localweather": {
+    "settings": {
+      "ENDPOINT_NAME": "Endpoint Name"
+    },
+    "TITLE": "Weather"
+    
+  }
+}

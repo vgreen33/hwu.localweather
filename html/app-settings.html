@@ -1,0 +1,19 @@
+<div class="form-group" ng-class="{ 'has-error': $ctrl.submitted && $ctrl.form.endpointName.$invalid }">
+  <label class="col-sm-4 control-label" for="label-endpointName" translate-once="app.hw-localweather.settings.ENDPOINT_NAME"></label>
+  <div class="col-sm-8">
+
+  <input
+      class="form-control"
+      type="text"
+      name="endpointName"
+      id="label-endpointName"
+      ng-model="$ctrl.app.settings.Endpoint"
+      ng-maxlength="64"
+  >
+
+  <div class="help-block" ng-messages="$ctrl.form.Endpoint.$error" ng-if="$ctrl.submitted">
+      <div ng-messages-include="app/common/ng-messages.html"></div>
+  </div>
+
+  </div>
+</div>

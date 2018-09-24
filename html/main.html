@@ -1,0 +1,25 @@
+<div class="flex-container flex-container-columns" ng-init="myday.appFlex = true">
+    <!-- Fixed header -->
+    <div class="flex-header wrapper bg-light b-b">
+        <h1 class="font-thin h3" translate="app.hw-localweather.TITLE"></h1>
+    </div>
+
+    <!-- Scrollable content area -->
+    <div class="flex-xs-1 overflow-auto wrapper-md">
+    	<table class="table table-responsive table-striped">
+            <tr>
+                <th translate="app.hw-localweather.TITLE"></th>
+            </tr>
+        
+            <tr ng-repeat="weather in vm.services.allWeather">
+        	
+<!--                 <p ng-bind>{{weather.city}}</p>
+                <p>{{weather.city}}</p> -->
+              <td ng-bind="weather.city"></td>
+    		  <td ng-bind="weather.temp"></td>
+              <td ng-bind="weather.conditions"></td>
+    	    </tr>
+    	</table>	
+    </div>
+
+</div>
